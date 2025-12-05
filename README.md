@@ -60,11 +60,11 @@
 - **プラットフォーム**: Discord
 - **開発言語**: Python 
 - **主要技術**:
-  - Discord.py (Discord Bot Framework)
+  - Discord.py
   - Google Spreadsheet API (データ管理)
-  - Koyeb (クラウドホスティング)
-  - UptimeRobot (常時起動監視)
+  - Oracle Cloud Infrastructure(ホスティング)
   - Docker (パッケージ管理)
+  - GitHub Actions (CI/CD)
 
 ### 📊 システム構成
 
@@ -76,8 +76,7 @@ graph TD
     D --> E["非公開スプレッドシート"]
     E --> F["Google Apps Script"]
     F --> G["公開スプレッドシート"]
-    H["Koyeb<br/>ホスティング"] --> A
-    I["UptimeRobot<br/>Bot常時起動"] --> H
+    H["Oracle Cloud Infrastructure<br/>ホスティング"] --> A
 ```
 
 ### 📈 プロジェクト規模
